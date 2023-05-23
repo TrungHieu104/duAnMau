@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    
+}
+
+header {
+    float: left;
+    width: 97.1%;
+    background-color: #CCC;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+select, input{
+    width: 15%;
+    padding: 10px 20px;
+    margin: 10px 0px;
+}
+#submit{
+    padding: 7px 8px;
+    width: 10%;
+    cursor: pointer;
+    border-radius: 10%;
+    margin: 10px;
+
+}
+
+#submit:hover{
+    background-color: aquamarine;
+}
+
+footer {
+    float: left;
+    width: 90%;
+    background-color: #CCC;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.main {
+    float: left;
+    width: calc(100% - 100px);
+    padding: 0px 50px;
+}
+
+* {
+    font-family: sans-serif; /* Change your font family */
+  }
+  
+  .content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .content-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+  }
+  #sua, #xoa{
+    text-decoration: none;
+    padding: 8px;
+    margin: 5px 2px;
+    border-radius: 5%;
+    color: white;
+  }
+  #sua{
+    background-color: #009879;
+  }
+  #sua:hover{
+    background-color: #03836a;
+  }
+  #xoa{
+    background-color: #e74c3c;
+  }
+  #xoa:hover{
+    background-color: #d14535;
+  }
+/* scroll */
+body::-webkit-scrollbar{
+    width: 8px;
+    
+}
+body::-webkit-scrollbar-thumb{
+    border-radius: 100rem;
+    background-image: linear-gradient(to bottom,#d14535, #009879);
+}
+body::-webkit-scrollbar-track{
+    background-color: white;
+    border-radius: 100rem;
+}
